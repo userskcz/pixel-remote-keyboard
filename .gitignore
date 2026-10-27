@@ -1,0 +1,13 @@
+.gradle/
+**/build/
+local.properties
+signing/
+*.keystore
+*.jks
+.env
+.env.*
+outputs/
+upstream-wearboard/
+.idea/
+*.iml
+.DS_Store

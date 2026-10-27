@@ -1,0 +1,8 @@
+def generatedNotices = layout.buildDirectory.dir('generated/project-notices')
+def projectNotice = tasks.register('generateProjectNotice', Copy) {
+    from rootProject.file('LICENSE')
+    into generatedNotices.map { it.dir('raw') }
+    rename { 'project_license' }
+}
+android.sourceSets.main.res.srcDir(generatedNotices)
+tasks.named('preBuild').configure { dependsOn projectNotice }

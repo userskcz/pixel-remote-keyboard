@@ -1,0 +1,24 @@
+name: Bug report
+description: Report an input, connection, or crown scrolling problem.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, private text, pairing codes, keystores, or device identifiers.
+  - type: input
+    id: version
+    attributes:
+      label: App version on both devices
+    validations:
+      required: true
+  - type: input
+    id: devices
+    attributes:
+      label: Phone/watch models and Android/Wear OS versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps, expected behavior, and actual behavior
+    validations:
+      required: true

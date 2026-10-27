@@ -1,0 +1,16 @@
+plugins { id 'com.android.application'; id 'com.google.android.gms.oss-licenses-plugin' }
+android {
+    namespace 'dev.local.pixelkeyboard.watch'
+    compileSdk 35
+    sourceSets { main.java.srcDirs += '../shared-ui/src/main/java' }
+    defaultConfig { applicationId 'dev.local.pixelkeyboard'; minSdk 33; testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"; targetSdk 35; versionCode rootProject.ext.appVersionCode; versionName rootProject.ext.appVersionName }
+
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { implementation project(':protocol'); implementation 'com.google.android.gms:play-services-wearable:19.0.0' }
+
+apply from: rootProject.file('app-signing.gradle')
+
+dependencies { androidTestImplementation 'androidx.test.ext:junit:1.2.1'; androidTestImplementation 'androidx.test:runner:1.6.2' }
+
+apply from: rootProject.file('app-notices.gradle')

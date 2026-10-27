@@ -1,0 +1,5 @@
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+android:settingsActivity="dev.local.pixelkeyboard.watch.SetupActivity"
+android:supportsSwitchingToNextInputMethod="true">
+<subtype android:imeSubtypeMode="keyboard" android:imeSubtypeLocale="en_US" android:isAsciiCapable="true" />
+</input-method>

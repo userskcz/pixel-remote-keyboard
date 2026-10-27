@@ -1,0 +1,22 @@
+def releaseStore = System.getenv('PRK_KEYSTORE_FILE')
+android {
+    signingConfigs {
+        if (file('../signing/personal-debug.keystore').exists()) {
+            debug { storeFile file('../signing/personal-debug.keystore') }
+        }
+        if (releaseStore) {
+            publicRelease {
+                storeFile file(releaseStore)
+                storePassword System.getenv('PRK_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('PRK_KEY_ALIAS')
+                keyPassword System.getenv('PRK_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            if (releaseStore) signingConfig signingConfigs.publicRelease
+            minifyEnabled false
+        }
+    }
+}

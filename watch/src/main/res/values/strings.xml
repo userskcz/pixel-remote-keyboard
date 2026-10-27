@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pixel Remote Keyboard</string>
+    <string-array name="android_wear_capabilities" translatable="false" tools:ignore="UnusedResources"><item>pixel_keyboard_watch_v1</item></string-array>
+    <string name="password_field">Password field</string>
+    <string name="text_inserted">Text inserted</string>
+    <string name="delete_character">Delete character</string>
+    <string name="open_pixel_remote_on_your_phone">Open Pixel Remote\non your phone.</string>
+    <string name="reopen_the_text_field">Reopen the text field.</string>
+    <string name="done">Done</string>
+    <string name="allow">Allow</string>
+    <string name="allow_typing_from_your_phone">Allow typing\nfrom your phone.</string>
+    <string name="connecting">Connecting</string>
+    <string name="switch_keyboard">Switch keyboard</string>
+    <string name="you_can_finish_typing">You can finish typing.</string>
+    <string name="could_not_insert">Could not insert</string>
+    <string name="not_connected">Not connected</string>
+    <string name="password">Password</string>
+    <string name="check_your_phone">Check your phone</string>
+    <string name="type_on_phone">Type on phone</string>
+    <string name="try_again">Try again</string>
+    <string name="text_field">Text field</string>
+    <string name="looking_for_your_phone">Looking for your phone…</string>
+    <string name="more_text">More text</string>
+    <string name="text_1_enable">1. Enable</string>
+    <string name="text_2_select">2. Select</string>
+    <string name="selected">Selected</string>
+    <string name="open_pixel_remote_on_your_phone_and_type">Open Pixel Remote\non your phone and type.</string>
+    <string name="two_steps_to_start_typing_from_your_phone">Two steps to start\ntyping from your phone.</string>
+    <string name="set_up_your_keyboard">Set up your\nkeyboard</string>
+    <string name="try_it_out">TRY IT OUT</string>
+    <string name="tap_the_field_below_to_try_it_out">Tap the field below\nto try it out.</string>
+    <string name="tap_here">Tap here</string>
+    <string name="enabled">Enabled</string>
+    <string name="youre_all_set">You’re all set</string>
+
+    <string name="open_source_licenses">Open-source licenses</string>
+    <string name="license_notices_missing">License notices could not be loaded. See THIRD_PARTY.md in the source repository.</string>
+</resources>
