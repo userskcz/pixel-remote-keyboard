@@ -81,7 +81,7 @@ Run instrumentation tests only on a disposable emulator you intentionally starte
 
 This command targets connected Android devices. Do not run it while a personal device is connected. CI runs the test using a disposable emulator and does not target your physical watch.
 
-The CI workflow builds, runs JVM tests and lint, compiles instrumentation tests, and runs rotary tests in an Android emulator. The GitHub-hosted workflow must be observed after the first push; local preparation is not evidence that a remote CI run has passed.
+The CI workflow builds, runs JVM tests and lint, compiles instrumentation tests, and runs rotary tests in an Android emulator. The first main-branch GitHub build and rotary emulator test passed: [validation run](https://github.com/userskcz/pixel-remote-keyboard/actions/runs/40479297012). Future changes should pass the workflow again.
 
 ## Limits
 
