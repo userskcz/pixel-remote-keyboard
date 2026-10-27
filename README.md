@@ -12,8 +12,6 @@ Pixel Remote Keyboard pairs a full-size phone editor with a system keyboard on y
 - A paired Android phone and Wear OS watch with Google Play services.
 - Both companion APKs from the same release, signed with the same certificate.
 
-The original 0.1.0 prototype was confirmed working by its user on Pixel 7 + Pixel Watch 3. Version 0.3.0-beta.2 is a prerelease: full device testing of the new protocol and crown behavior is still needed. No physical device is used automatically by the build scripts.
-
 ## Install
 
 1. Install **pixel-keyboard-phone.apk** on your phone.
@@ -23,7 +21,6 @@ The original 0.1.0 prototype was confirmed working by its user on Pixel 7 + Pixe
 5. On your phone, allow notifications when convenient. Notifications are optional; you can open the editor manually.
 6. Tap the test field on the watch, type on your phone, and tap **Insert on watch**.
 
-ADB is not used to type. You can turn debugging off after installation.
 
 ### Upgrading from 0.1.x or 0.2.x
 
