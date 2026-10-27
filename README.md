@@ -1,5 +1,7 @@
 # Pixel Remote Keyboard
 
+[Download the private beta APKs](https://github.com/userskcz/pixel-remote-keyboard/releases/tag/v0.3.0-beta.2) · [License explained](LICENSING.md)
+
 Type on your Android phone. Insert the text into the focused field on your Wear OS watch.
 
 Pixel Remote Keyboard pairs a full-size phone editor with a system keyboard on your watch. It supports Unicode text, emoji, clipboard paste, password-field opt-in, and rotary crown scrolling.
